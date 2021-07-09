@@ -95,6 +95,7 @@ section{
     font-size: 17px;
     /*width: 1000px;*/
     width: 80%;
+
     margin: 25px auto;
     padding: 15px 15px; 
 
@@ -117,10 +118,29 @@ h2{
     margin-bottom: 15px;
 }
 /**************TABLAS****************/
+/*@media screen and (max-width: 1000px){
+  table{
+    border: 5px solid #D35400;
+    border-collapse: collapse;
+    border-radius: 5px;
+    max-width: 33333333339%;
+    
+    
+    display: block;
+    overflow-x: auto; 
+}*/
+
 table{
     border: 5px solid #D35400;
     border-collapse: collapse;
-    border-radius: 5px;   
+    border-radius: 5px;
+    width: 100%;
+    
+    
+    
+    display: block;
+    overflow-x: auto;
+    flex-wrap: nowrap;   
 }
 
 th, td{
@@ -128,10 +148,11 @@ th, td{
     text-align: left;
     border: 2px solid #D35400;
 }
+
  tr:nth-child(even){
      background-color: #F2C0A2;
-     
 }
+
 /*-------COLOR DE LAS TABLAS Y TAMAÑO--------*/
 .tabla_1{
     color: black;
@@ -139,26 +160,29 @@ th, td{
     background-color: #EDBB99;
     border: 5px solid #D35400;
 }
+
 .titulo_tabla{
     text-align:center;
     font-size: 17px;
     background-color: #E59866;  
 }
 
-.tablas{
+.tablas{    
     color:black;
     font-size:15px;
     background-color:#F5CBA7;
     border-radius: 5px;
+    
     /*border: 5px solid #D35400;*/
 }
+
 .tablas2{
     color:black;
     font-size:15px;
     background-color:#F5CBA7;
     border: 5px solid #D35400;
     border-radius: 5px;
-   /* min-width: 90%;*/
+    /*min-width: 90%;*/
   /*  margin-left: 33px;*/
 }
 .tablas3{
