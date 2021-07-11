@@ -45,16 +45,11 @@
 }
 /*SELECTOR*/
 .cabecera{
-    
-/*    width: 100%;
-    min-height: 60px;*/
     text-align: center;
 
     display: flex;
-   /* flex-direction: column;*/
     flex-direction: row;
-    /*justify-content:center;*/
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;    
 }
@@ -74,16 +69,16 @@
 .titulos{
     text-align: center;
 }
-
+.sec_listados{
+ 
+}
 .listado{
     text-align: center;
     margin: 15px;  
     
     /**********************/
-       display: flex;
-   /* flex-direction: column;*/
+    display: flex;
     flex-direction: row;
-    /*justify-content:center;*/
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;   
@@ -93,18 +88,16 @@ section{
     color: black; 
     text-align: left;
     font-size: 17px;
-    /*width: 1000px;*/
-    width: 80%;
-
+    max-width: 1000px;
+  /*  max-width: 80%;**/
+    
     margin: 25px auto;
     padding: 15px 15px; 
 
-    
     background-color: #ffefb1;
     background-image: -webkit-linear-gradient(top left, #ffefb1 0%, #ffb886 100%);
     background-image: -o-linear-gradient(top left, #ffefb1 0%, #ffb886 100%);
     background-image: linear-gradient(to bottom right, #ffefb1 0%, #ffb886 100%);
-    
 }
 
 h2{
@@ -118,29 +111,10 @@ h2{
     margin-bottom: 15px;
 }
 /**************TABLAS****************/
-/*@media screen and (max-width: 1000px){
-  table{
-    border: 5px solid #D35400;
-    border-collapse: collapse;
-    border-radius: 5px;
-    max-width: 33333333339%;
-    
-    
-    display: block;
-    overflow-x: auto; 
-}*/
-
 table{
     border: 5px solid #D35400;
     border-collapse: collapse;
     border-radius: 5px;
-    width: 100%;
-    
-    
-    
-    display: block;
-    overflow-x: auto;
-    flex-wrap: nowrap;   
 }
 
 th, td{
@@ -172,7 +146,7 @@ th, td{
     font-size:15px;
     background-color:#F5CBA7;
     border-radius: 5px;
-    
+ 
     /*border: 5px solid #D35400;*/
 }
 
@@ -182,8 +156,7 @@ th, td{
     background-color:#F5CBA7;
     border: 5px solid #D35400;
     border-radius: 5px;
-    /*min-width: 90%;*/
-  /*  margin-left: 33px;*/
+    
 }
 .tablas3{
     color:black;
@@ -191,9 +164,17 @@ th, td{
     background-color:#F5CBA7;
     border: 5px solid #D35400;
     border-radius: 5px;
-   /* min-width: 65%;*/
+    
+    width: 65%;
 }
 .tablas4{
+    color:black;
+    font-size:15px;
+    background-color:#F5CBA7;
+    border: 5px solid #D35400;
+    border-radius: 5px;
+}
+.tablas5{
     color:black;
     font-size:15px;
     background-color:#F5CBA7;
@@ -219,6 +200,7 @@ th, td{
     background-image: linear-gradient(147deg, #dbcc67 0%, #dda6a6 74%);
     transition: 0.3s;
 }
+
 /*----- IMAGENES -------*/
 /*.img1{
     min-width: 299px;
@@ -278,43 +260,21 @@ transform: rotate(360deg);
     text-align: center;
 }
 /************** FLEX-BOX********************/
-.imgFlex{
-    width: 300px;
+
+.imgFlex1{
+    width: 90%;
     height: auto;
-    padding: 0px 0px 10px 310px;
+    margin-left: 25px;
+    margin-top: 20px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-.tituloFlex{
+/*.tituloFlex{
     margin-left: 25px;
     margin-right: 25px;
-}
-
-/*.contenedor{
-    width: 950px;
-    height: auto;
-    background-color: #FAD961;
-background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
-
-    margin-top: 50px;
-    margin: auto;
-    padding: 7px;
-    box-sizing: border-box;
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.contenedor div{
-    width: 250px;
-    height: 250px;
-    background-color: gainsboro;
-    border: 1px solid black;
-    border-radius: 25px;
-    margin: 20px;
-}
-.contenedor div:hover{
-background-color: #FF3CAC;
-background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-    transition: 0.3s;
 }*/
 
 /*----------footer-----------*/
